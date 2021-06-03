@@ -3,7 +3,7 @@ const app = express()
 
 app.use("view engine", "ejs")
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   res.render("index")
 })
 
